@@ -104,7 +104,18 @@
     text-decoration: underline;
 }
 /* token*/
-.token{
-    background-color: rgb(252, 197, 225);
+.alert-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255,245,216);
     padding: 15px 0px;
+}
+
+.alert-container p {
+    margin-left: 20px;
+}
+
+.alert-container .close {
+    cursor: pointer;
+    margin-right: 20px;
 }
